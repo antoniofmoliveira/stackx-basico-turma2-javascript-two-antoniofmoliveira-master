@@ -54,6 +54,9 @@ function commitMessageClickHandler() {
     input.value = "";
 }
 
+function trataEnter(event) {
+    if (event.key === "Enter") commitMessageClickHandler();
+}
 
 // --------------------------------
 // Não remover estas linhas
